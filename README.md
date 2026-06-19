@@ -22,7 +22,7 @@ Diagram przedstawia ścieżkę od momentu fizycznego przyjścia dostawy, przez w
 Proces realizowany od momentu weryfikacji zamówienia przez handlowca, przez etap kompletacji (picking), pakowanie, aż po fizyczny załadunek i wyjazd towaru do klienta.
 
 **Co tutaj uwzględniłem:**
-* Podział na zadania manualne (magazynier) i automatyczne akcje systemowe ( दांत / Service Tasks w torze ERP).
+* Podział na zadania manualne (magazynier) i automatyczne akcje systemowe (Service Tasks w torze ERP).
 * Kontrolę jakościową na magazynie: weryfikacja zgodności towaru z dokumentem SPS.
 * Obsługę błędów przy kompletacji: scenariusz szybkiej naprawy pomyłki przez pracownika vs. krytyczny błąd skutkujący systemowym wycofaniem wydania i zamrożeniem procesu w ERP.
 
