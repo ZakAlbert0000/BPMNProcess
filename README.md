@@ -9,7 +9,7 @@ Mapowanie procesów biznesowych i logistycznych w systemie ERP
 Diagram przedstawia ścieżkę od momentu fizycznego przyjścia dostawy, przez weryfikację dokumentów i nadanie wewnętrznych numerów paczek, aż po przyjęciu i informacje przez system ERP. 
 
 **Co zostało uwzględnione:**
-* Obsługę ścieżki wyjątków (błędy NOK): podział na rozbieżności w nazewnictwie/wykonaniu towaru (korekta kartoteki w ERP przez Dział Zakupów) oraz braki ilościowe/jakościowe (reklamacja do dostawcy).
+* Obsługę ścieżki wyjątków (błędy NOK): podział na rozbieżności w nazewnictwie/wykonaniu towaru (korekta kartoteki w ERP przez Dział Kartotek/Zakupów) oraz braki ilościowe/jakościowe (reklamacja do dostawcy).
 * Automatyzację systemową: generowanie dokumentów PZ/PZU oraz automatyczne alerty e-mail po zamknięciu przyjęcia przez magazyniera (Informacja dla handlowca że towar jest na stanie i można wysyłać do klienta)
 
 ![Przyjęcie towaru](assets/Przyjecie_towaru.png)
@@ -19,12 +19,12 @@ Diagram przedstawia ścieżkę od momentu fizycznego przyjścia dostawy, przez w
 ## 2. Wydanie towaru z magazynu
 
 **O procesie:**  
-Proces realizowany od momentu weryfikacji zamówienia przez handlowca, przez etap kompletacji (picking), pakowanie, aż po fizyczny załadunek i wyjazd towaru do klienta.
+Proces realizowany od momentu weryfikacji zamówienia przez handlowca, przez etap kompletacji, pakowanie, aż po fizyczny załadunek i wyjazd towaru do klienta.
 
 **Co tutaj uwzględniłem:**
 * Podział na zadania manualne (magazynier) i automatyczne akcje systemowe (Service Tasks w torze ERP).
 * Kontrolę jakościową na magazynie: weryfikacja zgodności towaru z dokumentem SPS.
-* Obsługę błędów przy kompletacji: scenariusz szybkiej naprawy pomyłki przez pracownika vs. krytyczny błąd skutkujący systemowym wycofaniem wydania i zamrożeniem procesu w ERP.
+* Obsługę błędów przy kompletacji: scenariusz szybkiej naprawy pomyłki przez pracownika lub błąd skutkujący systemowym wycofaniem wydania i zamrożeniem procesu w ERP na czas wyjaśnienia.
 
 ![Wydanie towaru](assets/Wydanie_towaru.png)
 
