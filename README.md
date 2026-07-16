@@ -48,3 +48,4 @@ Diagram BPMN przedstawia proces przygotowania oferty przez handlowca dla klienta
 * **Narzędzia:** Draw.io
 * **Notacja:** Elementy BPMN 2.0 (z zachowaniem ról/torów, bramek decyzyjnych a także z rozróżnieniem zadań ludzkich a także systemowych)
 * **Znajomość domenowa:** Logistyka magazynowa (WMS), zarządzanie zapasami, proces O2C, obsługa reklamacji i dokumentów korygujących
+* **Pliki:** Źródło (draw.io) dostępne w BPMN (assets/BPMN Source)
