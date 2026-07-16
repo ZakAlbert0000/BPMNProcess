@@ -32,7 +32,7 @@ Proces realizowany od momentu weryfikacji zamówienia przez handlowca, przez eta
 
 ## 3. Proces Ofertyzacji
 
-**O procesie:**
+**O procesie:**  
 Diagram BPMN przedstawia proces przygotowania oferty przez handlowca dla klienta B2B od momentu zapytania (mail/telefon) do finalizacji - Zamówienie klienta (ZMK) lub przekazaniu do archiwum po przedawnieniu.
 
 **Co tutaj uwzględniłem:**
