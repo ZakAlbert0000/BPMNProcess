@@ -39,7 +39,6 @@ Diagram BPMN przedstawia proces przygotowania oferty przez handlowca dla klienta
 * Dwa niezależne warunki: istnienie kartoteki towarowej i znajomość stanu magazynowego — brak kartoteki oznacza automatycznie brak stanu magazynowego.
 * Ścieżkę przyspieszoną (towar na stanie -> oferta od razu) oraz pełną (ZPK -> OFD -> OFK, z tworzeniem kartoteki tymczasowej dla nowego towaru).
 * Dwa zakończenia procesu: zamówienie klienta (ZMK) albo archiwizacja po przedawnieniu oferty.
-* Proces ofertowania B2B, współpraca z działem zakupów.
 
 ![Proces Ofertyzacji](assets/Proces_Ofertyzacji.png)
 
@@ -48,5 +47,5 @@ Diagram BPMN przedstawia proces przygotowania oferty przez handlowca dla klienta
 ## Tech Stack & Kompetencje
 * **Narzędzia:** Draw.io
 * **Notacja:** Elementy BPMN 2.0 (z zachowaniem ról/torów, bramek decyzyjnych a także z rozróżnieniem zadań ludzkich a także systemowych)
-* **Znajomość domenowa:** Logistyka magazynowa (WMS), zarządzanie zapasami, proces O2C, obsługa reklamacji i dokumentów korygujących
+* **Znajomość domenowa:** Logistyka magazynowa (WMS), zarządzanie zapasami, proces O2C, ofertyzacja B2B obsługa reklamacji i dokumentów korygujących
 - **Pliki źródłowe (.drawio):** dostępne w folderze [`/assets/BPMNSource`](https://github.com/ZakAlbert0000/BPMNProcess/tree/main/assets/bpmn-source)
